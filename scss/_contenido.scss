@@ -1,0 +1,107 @@
+body{
+    background-color: beige;
+}
+.container-fluid{
+    font-family: $p-font;
+    text-align: center;
+    color: blanchedalmond;
+    .comprar{
+        background-color: rgb(137, 180, 245);
+    }
+    
+}
+h5{
+    font-family: $title-font;
+    font-weight: bold;
+    text-align: center;
+    
+}
+h2{
+    font-family: $title-font;
+    font-weight: bold;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.description1{
+.izquierda1{
+    @include background;
+    font-size: 1.5rem;
+}
+img{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+}
+
+.centro2{
+    @include background; 
+    height: 450px;
+    font-size: 1.5rem;
+    overflow: auto;
+}
+.imagenFlores{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+
+    }
+}
+
+.izquierda4{
+    @include background;
+    font-size: 1.5rem;
+    height: 544px;
+    overflow: auto;
+    ul{
+        list-style: none;
+    }
+}
+.imagenIngredientes{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+
+    }
+}
+.card-body{
+    @include background;
+    
+}
+.centro4{
+    @include background; 
+    height: 450px;
+    font-size: 1.5rem;
+    overflow: auto;
+    ul{
+        text-align: left;
+    }
+}
+.formulario{
+    @include background;
+    form{
+        font-size: 1.5rem;
+        position: relative
+    }
+    button{
+        background-color: rgb(137, 180, 245);
+    }
+    .checkbox{
+        width: 30px;
+        height: 30px;
+    }
+}
+.izquierdaAlmendras{
+    @include background; 
+    text-align: start;
+    height: 750px;
+    font-size: 1.5rem;
+    overflow: auto;
+    .buyButton{
+      background-color: rgb(129, 82, 129); 
+      color: blanchedalmond;
+    }
+}

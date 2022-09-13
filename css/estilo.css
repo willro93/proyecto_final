@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado {
+  background-color: rgb(193, 255, 148);
+  font-size: 1.5rem;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.encabezado .dropdown-menu {
+  background-color: rgb(224, 185, 191);
+}
+
+body {
+  background-color: beige;
+}
+
+.container-fluid {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: blanchedalmond;
+}
+.container-fluid .comprar {
+  background-color: rgb(137, 180, 245);
+}
+
+h5 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  text-align: center;
+  color: blanchedalmond;
+}
+
+.description1 .izquierda1 {
+  background-color: rgb(202, 158, 165);
+  font-size: 1.5rem;
+}
+.description1 img {
+  transition: all 2s ease;
+}
+.description1 img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.centro2 {
+  background-color: rgb(202, 158, 165);
+  height: 450px;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+
+.imagenFlores {
+  transition: all 2s ease;
+}
+.imagenFlores:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.izquierda4 {
+  background-color: rgb(202, 158, 165);
+  font-size: 1.5rem;
+  height: 544px;
+  overflow: auto;
+}
+.izquierda4 ul {
+  list-style: none;
+}
+
+.imagenIngredientes {
+  transition: all 2s ease;
+}
+.imagenIngredientes:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.card-body {
+  background-color: rgb(202, 158, 165);
+}
+
+.centro4 {
+  background-color: rgb(202, 158, 165);
+  height: 450px;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+.centro4 ul {
+  text-align: left;
+}
+
+.formulario {
+  background-color: rgb(202, 158, 165);
+}
+.formulario form {
+  font-size: 1.5rem;
+  position: relative;
+}
+.formulario button {
+  background-color: rgb(137, 180, 245);
+}
+.formulario .checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+.izquierdaAlmendras {
+  background-color: rgb(202, 158, 165);
+  text-align: start;
+  height: 750px;
+  font-size: 1.5rem;
+  overflow: auto;
+}
+.izquierdaAlmendras .buyButton {
+  background-color: rgb(129, 82, 129);
+  color: blanchedalmond;
+}
+
+footer {
+  background-color: rgba(27, 27, 109, 0.733);
+  color: rgba(202, 210, 214, 0.747);
+  bottom: 0%;
+  margin: 0px;
+  width: 100%;
+}
+footer .faceLogo {
+  transition: all 1s ease;
+}
+footer .faceLogo:hover {
+  transform: scale(1.2, 1.2);
+}
+footer .instaLogo {
+  transition: all 1s ease;
+}
+footer .instaLogo:hover {
+  transform: scale(1.2, 1.2);
+}/*# sourceMappingURL=estilo.css.map */

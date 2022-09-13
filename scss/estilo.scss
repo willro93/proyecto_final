@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$title-font:'IBM Plex Mono', monospace;
+$p-font:'Roboto Mono', monospace;
+@mixin background(){
+    background-color: rgb(202, 158, 165);
+}
+@import"header";
+@import"contenido";
+@import"footer";
